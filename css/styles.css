@@ -1,0 +1,26 @@
+
+/*h3 {
+  font-family: 'Dosis', sans-serif;
+
+  z-index: +1
+}*/
+
+
+.title-bar {
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+#landing-pane {
+  height: 500px;
+  opacity: 0.69;
+  background: #16A9C7;
+  background-image: url(../img/AOP-20131215-6822.jpg);
+  background-size: cover;
+}
