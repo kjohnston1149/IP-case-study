@@ -28,12 +28,23 @@ color: #000000;
 letter-spacing: 0.69px;
 }
 
+h4 {
+font-family: Dosis-Bold;
+font-size: 24px;
+color: #000000;
+letter-spacing: 0.69px;
+}
+
 p {
 font-family: Dosis-Regular;
 font-size: 16px;
 color: #000000;
 letter-spacing: 0.46px;
 line-height: 24px;
+}
+
+.white-text {
+  color: #FFFFFF
 }
 
 .title-bar {
@@ -53,7 +64,7 @@ line-height: 24px;
   text-align: center;
 }
 
-.callout img {
+.down-arrow {
   display: block;
   margin: auto;
 }
@@ -67,9 +78,16 @@ line-height: 24px;
 #dark-pane {
   height: 564px;
   background-image: linear-gradient(-34deg, #6C787B 0%, #3A4345 71%);
+  object-position: center;
 }
 
 #light-pane {
 height: 564px;
 background-image: linear-gradient(38deg, #16A9C7 0%, #DAEEF3 52%);
+object-position: center;
+}
+
+#inspiration-sites {
+  display: block;
+  margin: auto;
 }
