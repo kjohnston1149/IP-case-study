@@ -13,6 +13,7 @@ h1 {
 }
 
 h2 {
+  /*Header text*/
 font-family: Dosis-ExtraBold;
 font-size: 24px;
 color: #000000;
@@ -27,13 +28,35 @@ color: #000000;
 letter-spacing: 0.69px;
 }
 
+p {
+font-family: Dosis-Regular;
+font-size: 16px;
+color: #000000;
+letter-spacing: 0.46px;
+line-height: 24px;
+}
+
 .title-bar {
   font-family: 'Cinzel', serif;
   color: white;
 }
 
 
+.callout {
+  object-position: center;
+  opacity: 0.67;
+  background: #D8D8D8;
+  border-radius: 20px;
+}
 
+.callout h2, .callout p {
+  text-align: center;
+}
+
+.callout img {
+  display: block;
+  margin: auto;
+}
 
 #landing-pane {
   height: 564px;
