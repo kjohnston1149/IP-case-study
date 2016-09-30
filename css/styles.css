@@ -3,12 +3,29 @@
   background: #16A9C7;
   font-family: 'Dosis', sans-serif;
 }*/
-h3 {
-  font-family: 'Dosis', sans-serif;
-
+h1 {
+  /* West Coast Marine Ne: */
+  font-family: Dosis-Bold;
+  font-size: 50px;
+  color: #FFFFFF;
+  letter-spacing: 1.45px;
   z-index: +1
 }
 
+h2 {
+font-family: Dosis-ExtraBold;
+font-size: 24px;
+color: #000000;
+letter-spacing: 0.69px;
+z-index: +1
+}
+
+h3 {
+font-family: Dosis-Regular;
+font-size: 24px;
+color: #000000;
+letter-spacing: 0.69px;
+}
 
 .title-bar {
   font-family: 'Cinzel', serif;
@@ -20,7 +37,7 @@ h3 {
 
 #landing-pane {
   height: 564px;
-  background-image: url(../img/AOP-20131215-6822.jpg);
+  background-image: url(../img/landing-background.png);
   background-size: cover;
 }
 
