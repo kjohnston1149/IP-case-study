@@ -43,6 +43,7 @@ letter-spacing: 0.46px;
 line-height: 24px;
 }
 
+
 .white-text {
   color: #FFFFFF
 }
@@ -78,7 +79,11 @@ line-height: 24px;
 #dark-pane {
   height: 564px;
   background-image: linear-gradient(-34deg, #6C787B 0%, #3A4345 71%);
-  object-position: center;
+  text-align: left;
+}
+
+#dark-pane h4 {
+  text-align: right;
 }
 
 #light-pane {
