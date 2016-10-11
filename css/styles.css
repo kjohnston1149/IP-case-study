@@ -5,7 +5,8 @@
 }*/
 h1 {
   /* West Coast Marine Ne: */
-  font-family: Dosis-Bold;
+  font-family: 'Dosis';
+  font-weight: bolder;
   font-size: 50px;
   color: #FFFFFF;
   letter-spacing: 1.45px;
@@ -14,7 +15,8 @@ h1 {
 
 h2 {
   /*Header text*/
-font-family: Dosis-ExtraBold;
+font-family: 'Dosis';
+font-weight: bolder;
 font-size: 24px;
 color: #000000;
 letter-spacing: 0.69px;
@@ -22,21 +24,24 @@ z-index: +1
 }
 
 h3 {
-font-family: Dosis-Regular;
+font-family: 'Dosis';
+font-weight: normal;
 font-size: 24px;
 color: #000000;
 letter-spacing: 0.69px;
 }
 
 h4 {
-font-family: Dosis-Bold;
+font-family: 'Dosis';
+font-weight: bold;
 font-size: 24px;
 color: #000000;
 letter-spacing: 0.69px;
 }
 
 p {
-font-family: Dosis-Regular;
+font-family: 'Dosis';
+font-weight: normal;
 font-size: 16px;
 color: #000000;
 letter-spacing: 0.46px;
